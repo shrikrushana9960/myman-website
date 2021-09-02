@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/myman-website/static/css/main.2bd37f18.chunk.css",
+    "main.js": "/myman-website/static/js/main.bbbbfd08.chunk.js",
+    "main.js.map": "/myman-website/static/js/main.bbbbfd08.chunk.js.map",
+    "runtime-main.js": "/myman-website/static/js/runtime-main.3719caac.js",
+    "runtime-main.js.map": "/myman-website/static/js/runtime-main.3719caac.js.map",
+    "static/js/2.f1f32934.chunk.js": "/myman-website/static/js/2.f1f32934.chunk.js",
+    "static/js/2.f1f32934.chunk.js.map": "/myman-website/static/js/2.f1f32934.chunk.js.map",
+    "static/js/3.f20fdd33.chunk.js": "/myman-website/static/js/3.f20fdd33.chunk.js",
+    "static/js/3.f20fdd33.chunk.js.map": "/myman-website/static/js/3.f20fdd33.chunk.js.map",
+    "index.html": "/myman-website/index.html",
+    "static/css/main.2bd37f18.chunk.css.map": "/myman-website/static/css/main.2bd37f18.chunk.css.map",
+    "static/js/2.f1f32934.chunk.js.LICENSE.txt": "/myman-website/static/js/2.f1f32934.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/myman-website/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3719caac.js",
+    "static/js/2.f1f32934.chunk.js",
+    "static/css/main.2bd37f18.chunk.css",
+    "static/js/main.bbbbfd08.chunk.js"
+  ]
+}
