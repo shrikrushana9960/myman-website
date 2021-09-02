@@ -1,0 +1,104 @@
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+}
+
+
+.img {
+    float: right;
+}
+.status{
+     float: right;
+     border: 1px solid black;
+     border-radius: 10px;
+    padding:10;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-width: 20%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.containerData {
+  padding: 2px 16px;
+}
+.accept-btn:hover {
+	 background: #2b2bff;
+	 transition: all 0.5s;
+	 border-radius: 10px;
+	 box-shadow: 0px 6px 15px #00f 61;
+	 padding: 0.2rem 0.5rem 0.2rem 0.3rem;
+	 color: #fff;
+}
+ .accept-btn:hover::after {
+	 opacity: 1;
+	 transition: all 0.5s;
+	 color: #fff;
+}
+.accept-btn {
+	 font-family: Hack, monospace;
+	 background: #d3d3d3;
+	 color: #2c2c2c;
+	 cursor: pointer;
+	 border: 0;
+     margin: 10px;
+	 transition: all 0.5s;
+	 border-radius: 10px;
+	 position: relative;
+	 z-index:400;
+}
+ 
+
+.decline-btn:hover {
+	 background: red;
+	 transition: all 0.5s;
+	 border-radius: 10px;
+	 box-shadow: 0px 6px 15px red 61;
+	 padding: 0.2rem 0.5rem 0.2rem 0.3rem;
+	 color: #fff;
+}
+ .decline-btn:hover::after {
+	 opacity: 1;
+	 transition: all 0.5s;
+	 color: #fff;
+}
+.decline-btn {
+	 font-family: Hack, monospace;
+	 background: #d3d3d3;
+	 color: #2c2c2c;
+	 cursor: pointer;
+	 border: 0;
+	 transition: all 0.5s;
+	 border-radius: 10px;
+	 position: relative;
+	 z-index:400;
+}
+ ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(72, 59, 146) ;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: blue; 
+}
