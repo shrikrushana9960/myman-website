@@ -1,22 +1,27 @@
 import React from 'react'
-import logo from "../../logo.svg"
-const home = () => {
+import { SubmitButton } from '../../components/accountBox/common';
+import { useHistory } from 'react-router';
+const Home = () => {
+  const history=useHistory();
+  if (localStorage.getItem("isLoggedIn")!="true"){
+    localStorage.removeItem("isLoggedIn");
+  history.push("/login")}
     return (
       <div
         style={{
-          height: "100vh",
-          width: "100%",
           display: "flex",
-          alignItems: "center",
-          flexDirection:"column",
+          height: "100vh",
           justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
         }}
       >
-        <h1>Welcome to </h1>
-        <h2>MYMAN</h2>
-        <img src={logo} height="200px" width="200px"/>
+        <h1>Welcome to MyMan</h1>
+        <SubmitButton onClick={()=>{history.push("/work")}} style={{ margin: "10px" }}>create workspace</SubmitButton>
+        <SubmitButton onClick={()=>{ localStorage.removeItem("isLoggedIn");
+      history.push("/login")}} style={{ margin: "10px" }}>Logout</SubmitButton>
       </div>
     );
 }
 
-export default home
+export default Home;

@@ -75,7 +75,7 @@ const SinglTask = () => {
 
    
      setSucessfulMessage(
-       "Task sucessfully acepted by you, Detect on Your whush extension"
+       "Task sucessfully acepted by you, Detect on Your My Man extension"
      );
         
        }

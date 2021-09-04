@@ -5,17 +5,21 @@ import Register from "./Pages/Register/Register";
 import SingleTask from './Pages/SingleTask/SingleTask';
 import { Switch, Route } from "react-router-dom";
 import Home from "./Pages/home/home"
+import CreateWork from './Pages/createWork/CreateWork';
 function App() {
   return (
     <Switch>
       <Route path="/register">
         <Register />
       </Route>
+      <Route path="/work">
+        <CreateWork />
+      </Route>
       <Route path="/task">
         <SingleTask />
       </Route>
       <Route path="/home">
-        <Home/>
+        <Home />
       </Route>
       <Route path="/" exact>
         <Login />
